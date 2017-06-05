@@ -1,0 +1,7 @@
+{
+  "name": "node-faye",
+  "description": "Faye server with Node & Express",
+  "repository": "https://github.com/cpursley/node-faye",
+  "keywords": ["node", "express", "heroku", "faye"],
+  "image": "heroku/nodejs"
+}
