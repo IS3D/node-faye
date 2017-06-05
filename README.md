@@ -13,6 +13,8 @@ Your app should now be running on [localhost:9292](http://localhost:9292/).
 
 ## Heroku
 
+- Push changes to Heroku: `git push heroku master`
+
 - [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 - [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
 - [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
