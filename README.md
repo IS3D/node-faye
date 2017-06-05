@@ -9,7 +9,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cl
 - Install dependencies: `yarn`
 - Run the server locally: `npm start`
 
-Your app should now be running on [localhost:9292](http://localhost:9292/).
+Your app should now be running on [localhost:3000](http://localhost:3000/).
 
 ## Heroku
 

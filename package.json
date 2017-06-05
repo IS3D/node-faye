@@ -3,16 +3,14 @@
   "version": "0.0.1",
   "description": "Faye server with Node & Express",
   "engines": {
-    "node": "~6.7.0"
+    "node": "~6.10.2"
   },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "~4.15.3",
-    "body-parser": "~1.0.0",
-    "morgan": "~1.1",
+    "express": "~4.15.2",
     "faye": "~1.2.4"
   },
   "repository": {
@@ -23,7 +21,7 @@
     "node",
     "heroku",
     "express",
-     "faye"
+    "faye"
   ],
   "license": "MIT"
 }
