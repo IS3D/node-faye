@@ -21,6 +21,6 @@ app.post('/message', function(req, res) {
   res.send(200);
 });
 
-var port = process.env.port || 3000;
+var port = process.env.port || 9292;
 server.listen(port);
 console.log('Server up and listening on port ' + port);

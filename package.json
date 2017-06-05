@@ -2,9 +2,6 @@
   "name": "node-faye",
   "version": "0.0.1",
   "description": "Faye server with Node & Express",
-  "engines": {
-    "node": "~6.10.2"
-  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
