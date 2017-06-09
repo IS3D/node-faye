@@ -35,7 +35,8 @@ bayeux.on('unsubscribe', function(clientId, channel) {
 bayeux.on('publish', function(clientId, channel, data) {
   logger.info(new Date() + ' [publish] - client: ' + clientId + " - channel: " + channel);
   logger.info(new Date() + ' [publish] - data: ');
-  logger.info('message', { data: data });
+  console.log(data)
+  // logger.info('message', { data: data });
 });
 
 bayeux.on('disconnect', function(clientId) {
