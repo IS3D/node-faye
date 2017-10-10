@@ -33,10 +33,13 @@ bayeux.on('unsubscribe', function(clientId, channel) {
 });
 
 bayeux.on('publish', function(clientId, channel, data) {
-  logger.info(new Date() + ' [publish] - client: ' + clientId + " - channel: " + channel);
+  logger.info(new Date() + " [publish] - channel: " + channel);
   logger.info(new Date() + ' [publish] - data: ');
-  console.log(data)
-  // logger.info('message', { data: data });
+  for (var key in data) {
+   if (data.hasOwnProperty(key)) {
+      console.log(key, data[key]);
+   }
+}
 });
 
 bayeux.on('disconnect', function(clientId) {
