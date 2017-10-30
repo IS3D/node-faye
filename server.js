@@ -1,5 +1,8 @@
 'use strict';
 
+require('dotenv').config()
+require ('newrelic');
+
 const http   = require('http');
 const faye   = require('faye');
 const Logger = require('heroku-logger').Logger
