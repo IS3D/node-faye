@@ -39,10 +39,10 @@ bayeux.on('publish', function(clientId, channel, data) {
   logger.info(new Date() + " [publish] - channel: " + channel);
   logger.info(new Date() + ' [publish] - data: ');
   for (var key in data) {
-   if (data.hasOwnProperty(key)) {
+    if (data.hasOwnProperty(key)) {
       console.log(key, data[key]);
-   }
-}
+    }
+  }
 });
 
 bayeux.on('disconnect', function(clientId) {
